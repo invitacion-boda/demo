@@ -1,1 +1,1 @@
-URL: https://invitacion-boda.github.io/luz-y-fede/
+URL: https://invitacion-boda.github.io/demo
