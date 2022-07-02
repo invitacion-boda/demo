@@ -299,6 +299,7 @@ section.portada .content-portada h1{
   text-align: center;
   font-family: 'DM Serif Display', serif;
   font-size: 110px;
+  opacity: 0.5;
 }
 
 section.portada .box-nombres-fecha-portada .line{
@@ -317,6 +318,7 @@ section.portada .box-nombres-fecha-portada h1 span{
   height: 60px;
   line-height: 55px;
   font-size: 50px;
+  opacity: 0.5;
 }
 
 section.portada .box-frase-portada{
