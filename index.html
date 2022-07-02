@@ -288,36 +288,36 @@
 
                 <div>
                     <div class="polaroid">
-                        <a href="./img/galeria3.jpg" data-fancybox="galeria">
-                            <img src="./img/galeria3.jpg" alt="">
+                        <a href="./img/galeria3.webp" data-fancybox="galeria">
+                            <img src="./img/galeria3.webp" alt="">
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="polaroid">
-                        <a href="./img/galeria4.jpg" data-fancybox="galeria">
-                            <img src="./img/galeria4.jpg" alt="">
+                        <a href="./img/galeria4.webp" data-fancybox="galeria">
+                            <img src="./img/galeria4.webp" alt="">
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="polaroid">
-                        <a href="./img/galeria1.jpg" data-fancybox="galeria">
-                            <img src="./img/galeria1.jpg" alt="">
+                        <a href="./img/galeria1.webp" data-fancybox="galeria">
+                            <img src="./img/galeria1.webp" alt="">
                         </a>
                     </div>
                 </div>
                 <!-- <div>
                     <div class="polaroid">
-                        <a href="./img/galeria2.jpg" data-fancybox="galeria">
-                            <img src="./img/galeria2.jpg" alt="">
+                        <a href="./img/galeria2.webp" data-fancybox="galeria">
+                            <img src="./img/galeria2.webp" alt="">
                         </a>
                     </div>
                 </div> -->
                 <div>
                     <div class="polaroid">
-                        <a href="./img/galeria5.jpg" data-fancybox="galeria">
-                            <img src="./img/galeria5.jpg" alt="">
+                        <a href="./img/galeria5.webp" data-fancybox="galeria">
+                            <img src="./img/galeria5.webp" alt="">
                         </a>
                     </div>
                 </div>
@@ -428,11 +428,10 @@
                     </div>
                 </div>
 
-                <div class="w-100">
-
-                    <a target="_blank" href="https://www.instagram.com/" class="hashtag">#BodaAlexandraArnaldo</a>
-
-                </div>
+                <!-- <a target="_blank" href="https://www.instagram.com/" class="hashtag">#BodaAleArnaldo</a> -->
+                <h2 style="color: white;">#BodaAlexandraArnaldo</h2>
+                <!-- <div class="w-100">
+                </div> -->
 
                 <br>
 
@@ -1524,20 +1523,20 @@
         if ($(window).width() < 768) {
 
             // Aceptar webp?
-            // if (support_format_webp()) {
-            //     var imageInstagramParallax = './img/fede&tere06.webp';
-            // } else {
+            if (support_format_webp()) {
+                var imageInstagramParallax = './img/galeria6.webp';
+            } else {
                 var imageInstagramParallax = './img/galeria6.jpg';
-            // }
+            }
 
         } else {
 
             // Aceptar webp?
-            // if (support_format_webp()) {
-            //     var imageInstagramParallax = './img/fede&tere06.webp';
-            // } else {
+            if (support_format_webp()) {
+                var imageInstagramParallax = './img/galeria6.webp';
+            } else {
                 var imageInstagramParallax = './img/galeria6.jpg';
-            // }
+            }
         }
 
         $('.instagram').parallax({
@@ -1730,22 +1729,21 @@
     <script>
         if (device == 'mobile' || $(window).width() < 768) {
 
-            // Aceptar webp?
-            // if (support_format_webp()) {
-            //     var imageParallax = './img/portada.webp';
-            // } else {
+            //Aceptar webp?
+            if (support_format_webp()) {
+                var imageParallax = './img/portada.webp';
+            } else {
                 var imageParallax = './img/portada.jpg';
-            // }
+            }
 
         } else {
 
-            // Aceptar webp?
-            // if (support_format_webp()) {
-            //     var imageParallax = './img/portada.webp';
-            // } else {
-                var imageParallax = './img/portada3.jpg';0
-
-            // }
+            //Aceptar webp?
+            if (support_format_webp()) {
+                var imageParallax = './img/portada3.webp';
+            } else {
+                var imageParallax = './img/portada3.jpg';
+            }
 
         }
 
