@@ -230,7 +230,7 @@ section.portada{
   padding-bottom: 20%;
   background-size: cover;
   color: #fff;
-  position: relative;
+  position: absolute;
 }
 
 section.portada::before {
